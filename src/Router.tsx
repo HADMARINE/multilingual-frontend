@@ -9,7 +9,7 @@ const ClientRouter = (
     <Router basename="/">
       <Routes>
         <Route path="/auth/login" element={<LoginPage />} />
-        <Route path="/regsiter" element={<RegisterPage />} />
+        <Route path="/register" element={<RegisterPage />} />
         <Route element={<PageNotFound />} />
       </Routes>
     </Router>

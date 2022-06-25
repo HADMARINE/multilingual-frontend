@@ -30,11 +30,11 @@ const LoginPage = (props: Props) => {
       navigate('/');
       return;
     } else {
-      if (result.reason === 'LOGIN_FAIL') {
-        setIdError(' ');
-        setPasswordError(' ');
-        toast.error('Login Failed : ' + result.reason);
-      }
+      // if (result.reason === 'LOGIN_FAIL') {
+      setIdError(' ');
+      setPasswordError(' ');
+      toast.error('Login Failed : ' + result.reason);
+      // }
     }
   };
 
