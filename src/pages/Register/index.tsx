@@ -1,8 +1,10 @@
+import { langcode } from '@src/api/serve';
 import Button from '@src/components/assets/Button';
 import Input from '@src/components/assets/Input';
 import { Title } from '@src/components/assets/Text';
 import { Flex, FlexSpacer } from '@src/components/assets/Wrapper';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import toast from 'react-hot-toast';
 import { Lookup } from 'react-rainbow-components';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
@@ -13,13 +15,41 @@ const RegisterPage = (props: Props) => {
   const [password, setPassword] = useState('');
   const [passwordVerify, setPasswordVerify] = useState('');
   const [email, setEmail] = useState('');
-  const [preferredLanguage, setPreferredLanguage] = useState<string[]>(['EN']);
+  const [preferredLanguage, setPreferredLanguage] = useState<string[]>([]);
 
   const [idError, setIdError] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const [passwordVerifyError, setPasswordVerifyError] = useState('');
   const [emailError, setEmailError] = useState('');
   const [preferredLanguageError, setPreferredLanguageError] = useState('');
+
+  const [langCode, setLangCode] = useState<Record<string, any>>({});
+
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    async function work() {
+      const langCodeData = localStorage.getItem('langcode-data');
+      if (langCodeData === null) {
+        const data = await langcode.data();
+        if (!data.result) {
+          toast.error('There was a problem while connecting to a server');
+          return;
+        }
+        localStorage.setItem('langcode-data', JSON.stringify(data.data));
+      } else if (
+        JSON.parse(langCodeData).version !== (await langcode.version())
+      ) {
+        const data = await langcode.data();
+        localStorage.setItem('langcode-data', JSON.stringify(data.data));
+      }
+      setLangCode(JSON.parse(langCodeData as string));
+      setIsLoaded(true);
+    }
+
+    work();
+  });
+
   return (
     <>
       <Flex vertical center fit>
@@ -76,18 +106,7 @@ const RegisterPage = (props: Props) => {
           />
           <FlexSpacer flex={1} />
           <Flex>
-            {/* <Input
-              variant="primary"
-              width="300px"
-              height="40px"
-              border="10px yellow"
-              type="radio"
-              placeholder="Language"
-              error={passwordError}
-              onChange={(e) => setPassword(e.target.value)}
-            /> */}
             {preferredLanguage.map((v, i) => (
-              // <Input key={`preferred_language_${i}`} value={v}  />
               <Lookup
                 // onSearch={}
                 // options=i
