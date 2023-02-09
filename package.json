@@ -34,7 +34,7 @@
     "dotenv": "^10.0.0",
     "eqb-request-client": "1.0.0-rc3",
     "immutable": "4.0.0",
-    "mobx": "^6.3.5",
+    "mobx": "^6.8.0",
     "mobx-react": "^7.2.1",
     "mobx-state-tree": "^5.0.4",
     "node-sass": "^6.0.1",
