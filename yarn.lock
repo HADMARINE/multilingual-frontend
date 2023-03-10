@@ -13086,12 +13086,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mobx-state-tree@npm:^5.0.4":
-  version: 5.0.4
-  resolution: "mobx-state-tree@npm:5.0.4"
+"mobx-state-tree@npm:^5.1.8":
+  version: 5.1.8
+  resolution: "mobx-state-tree@npm:5.1.8"
   peerDependencies:
     mobx: ^6.3.0
-  checksum: af4ff0910e593ae05ea89898a17bbc3456057117e98852f67b9e6ea2c132a94e705791fe719f366e4ed5cde4088fef87d88af0b02e73350d644d6f6303d0b68d
+  checksum: 251e69a17dd025dd080a38cf446ae59febcf1a95f88abfc9e7eff04db139783b5da5e8f997b365da2da13259140695c3f0cd46b5be63cb25658219e86321defb
   languageName: node
   linkType: hard
 
@@ -16069,7 +16069,7 @@ fsevents@^1.2.7:
     jest: 26.6.0
     mobx: ^6.3.5
     mobx-react: ^7.2.1
-    mobx-state-tree: ^5.0.4
+    mobx-state-tree: ^5.1.8
     node-sass: ^6.0.1
     postcss: ^7.0.36
     prettier: ^2.4.1
