@@ -16091,7 +16091,7 @@ fsevents@^1.2.7:
     tailwindcss: "npm:@tailwindcss/postcss7-compat@^2.2.7"
     ts-jest: ^26.0.0
     typescript: ^4.4.4
-    web-vitals: ^2.1.2
+    web-vitals: ^3.3.2
   languageName: unknown
   linkType: soft
 
@@ -19306,10 +19306,10 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"web-vitals@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "web-vitals@npm:2.1.2"
-  checksum: 488c93a514504ad0a056d3afc41ef143494e5562e08175c0122f704ea3d3c08a1f62de445042ed51a1937d49bf868a50842e20066fe3dc99677937e5625ffa3e
+"web-vitals@npm:^3.3.2":
+  version: 3.3.2
+  resolution: "web-vitals@npm:3.3.2"
+  checksum: 76e832341d213d5de6f6767fef7f8c02163ab94326912a6355bbf6e194d930196ca5094b0d0d493b4c194acaaabcc96f0adc87870b913a7b9a51b225807abccf
   languageName: node
   linkType: hard
 
