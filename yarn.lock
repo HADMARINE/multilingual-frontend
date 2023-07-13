@@ -4026,10 +4026,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.11.6":
-  version: 16.11.6
-  resolution: "@types/node@npm:16.11.6"
-  checksum: 6e19634766ff589d3d2f361c2196b671f8f133cdadc5ad347a621c360d8994b6c4fbccfb2ad9c60c588c593831a96497c9c6b77d2b7e91be723384b94f6368e7
+"@types/node@npm:^20.4.2":
+  version: 20.4.2
+  resolution: "@types/node@npm:20.4.2"
+  checksum: 99e544ea7560d51f01f95627fc40394c24a13da8f041121a0da13e4ef0a2aa332932eaf9a5e8d0e30d1c07106e96a183be392cbba62e8cf0bf6a085d5c0f4149
   languageName: node
   linkType: hard
 
@@ -16043,7 +16043,7 @@ fsevents@^1.2.7:
     "@testing-library/react": ^12.1.2
     "@testing-library/user-event": ^13.2.1
     "@types/jest": ^27.0.1
-    "@types/node": ^16.11.6
+    "@types/node": ^20.4.2
     "@types/node-sass": ^4.11.2
     "@types/react": ^17.0.33
     "@types/react-dom": ^17.0.10
