@@ -33,7 +33,7 @@
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
     "eqb-request-client": "1.0.0-rc3",
-    "immutable": "4.0.0",
+    "immutable": "4.3.4",
     "mobx": "^6.3.5",
     "mobx-react": "^7.2.1",
     "mobx-state-tree": "^5.0.4",
