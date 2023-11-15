@@ -29,7 +29,7 @@
     ]
   },
   "dependencies": {
-    "axios": "^0.24.0",
+    "axios": "^1.6.2",
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
     "eqb-request-client": "1.0.0-rc3",
