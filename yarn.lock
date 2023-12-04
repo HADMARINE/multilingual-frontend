@@ -8560,14 +8560,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0":
-  version: 8.3.0
-  resolution: "eslint-config-prettier@npm:8.3.0"
+"eslint-config-prettier@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "eslint-config-prettier@npm:9.1.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: df4cea3032671995bb5ab07e016169072f7fa59f44a53251664d9ca60951b66cdc872683b5c6a3729c91497c11490ca44a79654b395dd6756beb0c3903a37196
+  checksum: 9229b768c879f500ee54ca05925f31b0c0bafff3d9f5521f98ff05127356de78c81deb9365c86a5ec4efa990cb72b74df8612ae15965b14136044c73e1f6a907
   languageName: node
   linkType: hard
 
@@ -16061,7 +16061,7 @@ fsevents@^1.2.7:
     dotenv: ^10.0.0
     eqb-request-client: 1.0.0-rc3
     eslint: ^7.32.0
-    eslint-config-prettier: ^8.3.0
+    eslint-config-prettier: ^9.1.0
     eslint-plugin-babel: ^5.3.1
     eslint-plugin-jest: ^24.4.0
     identity-obj-proxy: ^3.0.0
