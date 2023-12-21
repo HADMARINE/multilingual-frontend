@@ -3475,6 +3475,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@remix-run/router@npm:1.14.1":
+  version: 1.14.1
+  resolution: "@remix-run/router@npm:1.14.1"
+  checksum: a3a0e7bd1917a4fd10322269b78ce1c5917a74889dfa747305b5a56e5d441b9187e1d8aaa6d58c4bf77713e7baca825f87057a64b2d21718cdb361f1cda75687
+  languageName: node
+  linkType: hard
+
 "@restart/context@npm:^2.1.4":
   version: 2.1.4
   resolution: "@restart/context@npm:2.1.4"
@@ -15875,20 +15882,31 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "react-router-dom@npm:6.3.0"
+"react-router-dom@npm:^6.21.1":
+  version: 6.21.1
+  resolution: "react-router-dom@npm:6.21.1"
   dependencies:
-    history: ^5.2.0
-    react-router: 6.3.0
+    "@remix-run/router": 1.14.1
+    react-router: 6.21.1
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 77603a654f8a8dc7f65535a2e5917a65f8d9ffcb06546d28dd297e52adcc4b8a84377e0115f48dca330b080af2da3e78f29d590c89307094d36927d2b1751ec3
+  checksum: d8ea3370babab626827008ced8a776ac991023745dc69d44332b6a5229dd2a6899f3e46fc50365cef0c7487cf726bcdccb365ec106915f92c735da6e4c2e6b97
   languageName: node
   linkType: hard
 
-"react-router@npm:6.3.0, react-router@npm:^6.3.0":
+"react-router@npm:6.21.1":
+  version: 6.21.1
+  resolution: "react-router@npm:6.21.1"
+  dependencies:
+    "@remix-run/router": 1.14.1
+  peerDependencies:
+    react: ">=16.8"
+  checksum: c6774cf4440b524401cecb40f4fbf4dbc89d61405f9f6d3cb3d2338e262a5254b9e27bc6039dc32e2c5f8b3009e83e9d6b30a61159dd6c423297cb0e3bd46fb3
+  languageName: node
+  linkType: hard
+
+"react-router@npm:^6.3.0":
   version: 6.3.0
   resolution: "react-router@npm:6.3.0"
   dependencies:
@@ -16083,7 +16101,7 @@ fsevents@^1.2.7:
     react-modal: ^3.14.3
     react-rainbow-components: ^1.30.1
     react-router: ^6.3.0
-    react-router-dom: ^6.3.0
+    react-router-dom: ^6.21.1
     react-scripts: ^4.0.3
     react-test-renderer: ^17.0.2
     require-strip-json-comments: ^2.0.0
