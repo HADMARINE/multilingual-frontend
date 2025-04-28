@@ -13095,10 +13095,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mobx@npm:^6.3.5":
-  version: 6.3.5
-  resolution: "mobx@npm:6.3.5"
-  checksum: 9d5578ca55a3fd07610ed7416ca933b367005f483817d9fa653c8ec60fe9f2be65dc22dd0a93995ddabc18bcffd14feffb4365eddfc5e6b80c36eb9b05a98540
+"mobx@npm:^6.13.7":
+  version: 6.13.7
+  resolution: "mobx@npm:6.13.7"
+  checksum: f7571821a0c8664323075199943ad313aea851a8c315641e5738ac4bd31e4c0015d8274f410720c6f77cf0189c9b7a6b1ada91a759490e3d7cacdbc4a4591917
   languageName: node
   linkType: hard
 
@@ -16067,7 +16067,7 @@ fsevents@^1.2.7:
     identity-obj-proxy: ^3.0.0
     immutable: 4.0.0
     jest: 26.6.0
-    mobx: ^6.3.5
+    mobx: ^6.13.7
     mobx-react: ^7.2.1
     mobx-state-tree: ^5.0.4
     node-sass: ^6.0.1
