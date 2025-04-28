@@ -10564,10 +10564,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"immutable@npm:4.0.0":
-  version: 4.0.0
-  resolution: "immutable@npm:4.0.0"
-  checksum: 4b5e9181e4d5fa06728a481835ec09c86367e5d03268666c95b522b7644ab891098022e4479a43c4c81a68f2ed82f10751ce5d33e208d7b873b6e7f9dfaf4d87
+"immutable@npm:5.1.1":
+  version: 5.1.1
+  resolution: "immutable@npm:5.1.1"
+  checksum: 02f8c8a106710827cf349426901257d8437c535c463f7e8680edc95c6e0c8a9720aa6fedeb09eac560ec0dad5a38e7e1d17f696bdd91c0c5c9758c53ada38fc0
   languageName: node
   linkType: hard
 
@@ -16065,7 +16065,7 @@ fsevents@^1.2.7:
     eslint-plugin-babel: ^5.3.1
     eslint-plugin-jest: ^24.4.0
     identity-obj-proxy: ^3.0.0
-    immutable: 4.0.0
+    immutable: 5.1.1
     jest: 26.6.0
     mobx: ^6.3.5
     mobx-react: ^7.2.1
