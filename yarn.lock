@@ -4054,13 +4054,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prompts@npm:^2.0.13":
-  version: 2.4.0
-  resolution: "@types/prompts@npm:2.4.0"
-  checksum: ec75655f07fbc3cb2df60a3e3bdd13bfda0554a16f5541285c4b1cc0610756838a2863dccfc911cbb1385492054c07210512164e3dbef272ec638d631783b278
-  languageName: node
-  linkType: hard
-
 "@types/prop-types@npm:*, @types/prop-types@npm:^15.7.3":
   version: 15.7.4
   resolution: "@types/prop-types@npm:15.7.4"
@@ -5330,6 +5323,15 @@ __metadata:
   version: 1.0.1
   resolution: "async-limiter@npm:1.0.1"
   checksum: 2b849695b465d93ad44c116220dee29a5aeb63adac16c1088983c339b0de57d76e82533e8e364a93a9f997f28bbfc6a92948cefc120652bd07f3b59f8d75cf2b
+  languageName: node
+  linkType: hard
+
+"async-mutex@npm:^0.4.0":
+  version: 0.4.1
+  resolution: "async-mutex@npm:0.4.1"
+  dependencies:
+    tslib: ^2.4.0
+  checksum: cb529c0d257c8ff8e5b26c81b36127a255e545edee2c42c76247d533b89a7664037d95f33130f964de49b111ad3324ead8dcccd419c47acdfeb7413ed93063a1
   languageName: node
   linkType: hard
 
@@ -15617,11 +15619,11 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"quickcert@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "quickcert@npm:1.1.2"
+"quickcert@npm:^1.2.3":
+  version: 1.2.3
+  resolution: "quickcert@npm:1.2.3"
   dependencies:
-    "@types/prompts": ^2.0.13
+    async-mutex: ^0.4.0
     boxen: ^5.0.1
     chalk: ^4.1.1
     clear-logger: ^1.0.5
@@ -15629,7 +15631,7 @@ fsevents@^1.2.7:
     yargs: ^17.0.1
   bin:
     quickcert: dist/cli/index.js
-  checksum: 379fc096303e31e5e93693410e70a6d8561bac032106475b423b96c2597844d9105c67258dc9ea36813f5d9ed0d2350073e305762a0a05f63af2314949d1b3e8
+  checksum: 509516734ff65aca609fa3c85920a5c6b9704e6088dc7c629e578e1eed4e543c4c5445b23c7a9f030c139f6cf46d80fb4f06a9f916350ff8bee185d899afd914
   languageName: node
   linkType: hard
 
@@ -16073,7 +16075,7 @@ fsevents@^1.2.7:
     node-sass: ^6.0.1
     postcss: ^7.0.36
     prettier: ^2.4.1
-    quickcert: ^1.1.2
+    quickcert: ^1.2.3
     react: ^17.0.2
     react-app-rewire-alias: ^1.0.3
     react-bootstrap: ^2.0.1
@@ -18546,6 +18548,13 @@ resolve@^2.0.0-next.3:
   version: 2.3.1
   resolution: "tslib@npm:2.3.1"
   checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.4.0":
+  version: 2.8.1
+  resolution: "tslib@npm:2.8.1"
+  checksum: e4aba30e632b8c8902b47587fd13345e2827fa639e7c3121074d5ee0880723282411a8838f830b55100cbe4517672f84a2472667d355b81e8af165a55dc6203a
   languageName: node
   linkType: hard
 
